@@ -1,6 +1,6 @@
 body {
   background-color: #FFF4CF;
-  font-family: Garamond;
+  font-family: garamond;
   font-size: 20px;
 }
 hr {
@@ -12,6 +12,7 @@ hr {
 }
 h1{
   color: #319DA0;
+  display: block;
   font-weight: bolder;
   font-family: Century;
   font-size: 40px;
@@ -21,10 +22,21 @@ h3{
   font-family: Tahoma;
   font-variant: small-caps;
 }
-/*
-.education{
-   color: #319DA0;
-  font-family: Tahoma;
-  font-variant: small-caps;
+.reset {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  align-items: center;
 }
-*/
+.reset:hover {
+  background-color: gold;
+}
+.submit{
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  align-items: center;
+}
+.submit:hover {
+  background-color: gold;
+}
